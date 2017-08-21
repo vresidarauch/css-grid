@@ -4,6 +4,7 @@ body {
   border: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Molengo, sans-serif;
 }
 
 .item {
@@ -56,4 +57,21 @@ body {
 
 .hidden {
   display: none;
+}
+
+/* Form Example */
+
+.user-buttons > button {
+  background-color: darkred;
+  color: #fff;
+  border: 1px solid grey;
+  padding: 0.5em 1.25em;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  font-size: 1.5em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 0.5px solid grey;
 }
